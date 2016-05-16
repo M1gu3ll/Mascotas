@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mascotas</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo_main_activity">Petagram</string>
+</resources>
