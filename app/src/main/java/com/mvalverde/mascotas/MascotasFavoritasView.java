@@ -55,7 +55,7 @@ public class MascotasFavoritasView extends AppCompatActivity {
         } else {
             mitoolbar.setTitleTextColor(getResources().getColor(R.color.textColorPrimary));
         }
-        mitoolbar.setLogo(R.drawable.dogleg);
+        mitoolbar.setLogo(R.drawable.leg);
         setSupportActionBar(mitoolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

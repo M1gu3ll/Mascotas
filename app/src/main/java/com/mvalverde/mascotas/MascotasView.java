@@ -82,7 +82,7 @@ public class MascotasView extends AppCompatActivity {
         } else {
             miToolbar.setTitleTextColor(getResources().getColor(R.color.textColorPrimary));
         }
-        miToolbar.setLogo(R.drawable.dogleg);
+        miToolbar.setLogo(R.drawable.leg);
         setSupportActionBar(miToolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
     }

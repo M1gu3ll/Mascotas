@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mascotas</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo_main_activity">Petagram</string>
+    <string name="title_item_star">Favorites</string>
+    <string name="dscImageMascota">Mascot image</string>
+    <string name="dscImageLike">Image button to take a photo like</string>
+    <string name="dscImageBoneStar">Image to identify those who received the dog like</string>
+</resources>
