@@ -5,15 +5,21 @@
     android:layout_height="match_parent"
     tools:context=".MascotasView">
 
-    <include
-        android:id="@+id/miActionBar_mascota"
-        layout="@layout/actionbar" />
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/rvMascotas"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/miActionBar_mascota" />
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/miActionBar_mascota"
+            layout="@layout/actionbar" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvMascotas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/miActionBar_mascota" />
+
+    </RelativeLayout>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"

@@ -3,4 +3,7 @@
     <string name="action_settings">Settings</string>
     <string name="titulo_main_activity">Petagram</string>
     <string name="title_item_star">Favoritos</string>
+    <string name="dscImageMascota">Imagen de la mascota</string>
+    <string name="dscImageLike">Imagen de boton para dar like a la foto</string>
+    <string name="dscImageBoneStar">Imagen para identificar cuantos like recibió el perro</string>
 </resources>
