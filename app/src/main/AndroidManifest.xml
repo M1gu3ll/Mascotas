@@ -8,12 +8,20 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Mascotas">
+        <activity android:name=".MascotasView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MascotasFavoritasView"
+            android:parentActivityName=".MascotasView"><!-- Subir - Versiones > 4.0-->
+            <!-- Subir - Soporte para versiones <= 4.0 -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MascotasView" />
         </activity>
     </application>
 

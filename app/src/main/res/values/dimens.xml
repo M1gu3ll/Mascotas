@@ -5,4 +5,10 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="elevacion_appbar">4dp</dimen>
     <dimen name="titulo_mascota">20sp</dimen>
+    <dimen name="text_appbar">200dp</dimen>
+    <dimen name="corner_radius_cardview">4dp</dimen>
+    <dimen name="layout_width_height_imagebutton">38dp</dimen>
+    <dimen name="layout_margin_left_imagebutton">10dp</dimen>
+    <dimen name="layout_margin_left_textview">50dp</dimen>
+    <dimen name="textsize_textview">20sp</dimen>
 </resources>
